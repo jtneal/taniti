@@ -1,0 +1,90 @@
+header {
+  background-image: url("../images/island-view-from-above.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  position: relative;
+}
+
+.home header {
+  height: 100vh;
+}
+
+header .button {
+  background-color: #fff;
+  color: rgb(0, 65, 85);
+}
+
+header .button:hover {
+  background-color: #9ff;
+  color: rgb(0, 65, 85);
+}
+
+nav {
+  align-items: center;
+  background-color: rgba(0, 65, 85, 0.75);
+  box-shadow: 0 1px 10px #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  border-left: 1px solid rgba(255, 255, 255, 0.75);
+}
+
+nav li:first-child {
+  border-left: none;
+}
+
+nav li a {
+  color: #fff;
+  display: block;
+  font-weight: 500;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow:
+    -2px -2px 4px rgba(0, 0, 0, 0.5),
+    -2px 2px 4px rgba(0, 0, 0, 0.5),
+    2px -2px 4px rgba(0, 0, 0, 0.5),
+    2px 2px 4px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+}
+
+nav li a:hover {
+  color: #9ff;
+}
+
+.welcome-promo {
+  bottom: 100px;
+  position: absolute;
+  right: 100px;
+}
+
+.home .welcome-promo {
+  bottom: 200px;
+  right: 200px;
+}
+
+.view-more {
+  bottom: 24px;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%);
+}
+
+.view-more img {
+  width: 64px;
+}

@@ -1,0 +1,72 @@
+footer {
+  background-image: url("../images/beach-sand.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 64px;
+}
+
+footer .flex {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+footer .spacer {
+  margin-top: 128px;
+}
+
+footer a {
+  color: #000;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer h4 {
+  color: #000;
+  text-shadow:
+    -2px -2px 4px rgba(255, 255, 255, 0.75),
+    -2px 2px 4px rgba(255, 255, 255, 0.75),
+    2px -2px 4px rgba(255, 255, 255, 0.75),
+    2px 2px 4px rgba(255, 255, 255, 0.75);
+}
+
+footer p,
+footer .social {
+  color: #000;
+  font-size: 1rem;
+  font-weight: 600;
+  text-shadow:
+    -2px -2px 4px rgba(255, 255, 255, 0.75),
+    -2px 2px 4px rgba(255, 255, 255, 0.75),
+    2px -2px 4px rgba(255, 255, 255, 0.75),
+    2px 2px 4px rgba(255, 255, 255, 0.75);
+}
+
+.top-anchor {
+  left: 50%;
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+.top-anchor img {
+  width: 64px;
+}
+
+.social {
+  display: flex;
+  margin-top: 24px;
+}
+
+.social a {
+  margin-left: 24px;
+}
+
+.social img {
+  width: 36px;
+}
